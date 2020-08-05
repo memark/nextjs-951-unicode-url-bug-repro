@@ -1,21 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+export default function Cafe() {
   return (
     <div className="container">
       <main>
-        <h1 className="title">Nextjs 9.3.5 Unicode Url Bug Repro</h1>
-
-        <p className="description">
-          <Link href="/café">
-            <a>Go to page /café by {"<Link />"}</a>
-          </Link>
-          <br />
-          <a href="/café">Go to page /café by {"<a />"}</a>
-        </p>
-
-        <p className="description"></p>
+        <h1 className="title">Café page successfully loaded</h1>
       </main>
 
       <style jsx>{`
