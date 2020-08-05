@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <main>
-        <h1 className="title">Nextjs 9.3.5 Unicode Url Bug Repro</h1>
+        <h1 className="title">Nextjs 9.5.1 Unicode Url Bug Repro</h1>
 
         <p className="description">
           <Link href="/café">
